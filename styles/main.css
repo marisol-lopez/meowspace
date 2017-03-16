@@ -1,0 +1,124 @@
+/***********header************/
+
+#site-banner-button {
+  color: black;
+  text-decoration: none;
+  left: 50px;
+  position: absolute;
+  top: 31%;
+}
+
+#site-banner-button:hover{
+  color: #d8d8df;
+}
+
+.nav-list{
+  list-style-type: none;
+}
+
+#login-bullet {
+  position: absolute;
+  /*float: right;*/
+  right: 30%;
+  top: 39%;
+}
+
+#signup-bullet {
+  position: absolute;
+  right: 20%;
+  top: 39%;
+}
+
+#login-bullet:link, #signup-bullet:link{
+  color: black;
+  text-decoration: none;
+}
+
+#login-bullet:visited, #signup-bullet:visited{
+  color: black;
+  text-decoration: none;
+}
+
+#login-bullet:hover, #signup-bullet:hover{
+  color: #fdb0e3;
+  text-decoration: none;
+}
+
+/********header********/
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  top: 0px;
+  border: solid;
+  background-color: white;
+}
+
+/***********body**************/
+
+body{
+  /*width: 1000px;*/
+  margin: 0px;
+  font-family: Helvetica;
+}
+
+main {
+  padding-top: 60px;
+}
+
+#meowspace-title {
+  text-decoration: underline;
+  text-align: center;
+  border: solid;
+  padding: 100px;
+  background-color: pink;
+}
+
+/********Popular Post Styling*******/
+
+.pop-posts {
+  text-align: center;
+  font-size: 40px;
+}
+
+.learn-more {
+  border: solid;
+  border-radius: 6px;
+  padding: 4px;
+  color: black;
+
+}
+
+.learn-more:link {
+  text-decoration: none;
+}
+
+.post-box {
+  border: solid;
+  border-radius: 9px;
+  width: 30%;
+  height: 281px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+/*****Cat picture******/
+.cat-with-mouse {
+  width: 500px;
+}
+
+
+/*cat banner*/
+.wants-cat-banner {
+  font-size: 45px;
+  border: solid;
+  text-align: center;
+  padding: 15px;
+}
+
+
+/*Footer*/
