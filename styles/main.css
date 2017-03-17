@@ -1,11 +1,12 @@
-/***********header************/
+/***********banner************/
 
 #site-banner-button {
   color: black;
   text-decoration: none;
-  left: 50px;
+  left: 8%;
   position: absolute;
   top: 31%;
+  background-color: white;
 }
 
 #site-banner-button:hover{
@@ -18,7 +19,6 @@
 
 #login-bullet {
   position: absolute;
-  /*float: right;*/
   right: 30%;
   top: 39%;
 }
@@ -58,24 +58,36 @@ header {
 /***********body**************/
 
 body{
-  /*width: 1000px;*/
   margin: 0px;
   font-family: Helvetica;
 }
 
-main {
-  padding-top: 60px;
+#meowspace-title {
+  text-align: center;
+  padding-top: 150px;
+  font-size: 90px;
+  color: white;
 }
 
-#meowspace-title {
-  text-decoration: underline;
-  text-align: center;
-  border: solid;
-  padding: 100px;
-  background-color: pink;
+main section:first-of-type {
+background-image: url("../assets/hero.jpg");
+height: 400px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
+
 
 /********Popular Post Styling*******/
+
+.post-titles {
+  padding: 4%;
+  margin: 0 0em;
+  border-radius: 1px;
+  border-bottom: 3px solid;
+  text-align: center;
+}
 
 .pop-posts {
   text-align: center;
@@ -83,11 +95,14 @@ main {
 }
 
 .learn-more {
-  border: solid;
+  border: 3px solid;
   border-radius: 6px;
-  padding: 4px;
+  padding: 10px;
   color: black;
-
+  position: relative;
+  left: 39%;
+  right: 39%;
+  background-color: white;
 }
 
 .learn-more:link {
@@ -95,30 +110,82 @@ main {
 }
 
 .post-box {
-  border: solid;
+  border: 3px solid;
   border-radius: 9px;
   width: 30%;
-  height: 281px;
+  height: 250px;
   display: inline-block;
   vertical-align: top;
-  padding: 10px;
+  padding: 0px;
   margin: 10px;
+  background-color: white;
 }
 
+/*text in posts*/
+.article-text {
+  text-align: center;
+}
 
 /*****Cat picture******/
 .cat-with-mouse {
   width: 500px;
+  position: relative;
+  right: 0%;
+  left: 98%;
+  bottom: 174px;
 }
 
+.cat-with-mouse, .club {
+  display: inline-block;
+}
+
+.club {
+  width: 50%;
+  position: relative;
+  right: 0%;
+  left: 0%;
+  height: 350px;
+  top: 112px;
+  text-align: center;
+}
 
 /*cat banner*/
 .wants-cat-banner {
-  font-size: 45px;
-  border: solid;
+  height: 364px;
+  font-size: 50px;
+  /*border: solid;*/
   text-align: center;
-  padding: 15px;
+  padding: 150px;
+  color: white;
 }
 
+.bottom-cat {
+  background-image: url("../assets/everybody.jpg");
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /*Footer*/
+
+
+footer h4, footer p {
+  display: inline;
+}
+
+.footer-text {
+  display: inline-block;
+  width: 50%;
+}
+
+nav {
+  display: inline-block;
+  vertical-align: top;
+}
+
+footer {
+  padding-left: 10%;
+  padding-top: 5%;
+}
